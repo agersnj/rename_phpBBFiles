@@ -1,7 +1,7 @@
 import json
 import os
 
-with open('/Users/Jojo/Desktop/downloadsForum') as json_file:
+with open('/YourSQLResult') as json_file:
     data = json.load(json_file)
 
 for file in data:
